@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #9A0909;
+    margin: 0 10px;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+nav {
+    background-color: black; 
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 60px 5px 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a visited {
+    color: white;
+}
+
+.container {
+    min-height: 500px;
+    width: 450px;
+    background-color: #7d0909;
+    margin: 3px 3px 0 0;
+    padding-left: 5px;
+    float:left;
+}
+
+.links a{
+    color: #E15829;
+    line-height: 35px;
+}
+
+.container-2 {
+    margin-top: 3px;
+    width: 15%;
+    min-height: 500px;
+    background-color: #E3DDDD;
+    float: right;
+}
+
+.list-of-content h1 {
+    text-align: center;
+    background-color: #BDBDBD;
+    margin-bottom: 10px;
+}
+
+.list-of-content p {
+    padding: 20px 0;
+    padding-top: 10%;
+}
+
+.list-of-content p::before {
+    border-top: 1px solid #BDBDBD;
+    content: '';
+    position: absolute;
+    width: 120px;
+    margin: 0 0 20px 80px;
+} 
+
+.text p {
+    color: white;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #e95b11;
+}
+.copyright {
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 40 px;
+}
+
+.copyright p {
+    color: white;
+    font-size: medium;
+}
