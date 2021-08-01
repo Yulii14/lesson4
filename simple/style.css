@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0 
+}
+
+body {
+    margin: 0 10px;
+}
+
+header {
+    background-color: #A52A2A;
+    margin-top: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.main-image {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.text-1 {
+margin-top: 30px;
+}
+
+a {
+    color: #0000FF;
+} 
+
+.text-1, .text-2 p {
+    font-size: 20px;
+} 
+
+.images {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.images img {
+    border: 5px dashed black;
+}
+
+footer {
+    background-color: black;
+}
+
+.copyright {
+ text-align: center;
+ margin: 60px 0 40px 0;
+}
+
+.copyright p {
+    color: white;
+    font-size: 25px;
+}
+
+
